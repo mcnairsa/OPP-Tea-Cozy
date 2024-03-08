@@ -1,0 +1,52 @@
+/*  Notes:
+    Make note of additional rules not on redline
+      e.g: overall/header width
+      What doI have to do to make the Tea of the Month text centre
+      so it's vertically aligned with the other two headings?
+*/
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: black;
+  color:seashell;
+  text-align: center;
+}
+
+header{
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+#logo {
+  height: 50px;
+  float: left;
+  margin-left: 10px;
+}
+
+nav {
+  float: right;
+}
+
+nav li {
+  display:inline-block;
+}
+
+nav li a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+#mission {
+  background-image: url("../images/img-mission-background.webp");
+  height: 700px;
+  width: 1200px;
+}
+
+#tea-of-the-month {
+  width: 1000px;
+}
+
+#locations {
+  background-image: url("../images/img-locations-background.webp");
+  height: 500px;
+  width: 1200px;
+}
