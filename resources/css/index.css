@@ -41,10 +41,32 @@ nav li a {
   width: 1200px;
 }
 
+/* Tea of the Month Section */
 #tea-of-the-month {
   width: 1000px;
 }
 
+#flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea {
+  height: 250px;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+.tea-image {
+  height: 200px;
+  width: 300px;
+}
+
+h4 {
+  margin: 0px;
+}
 #locations {
   background-image: url("../images/img-locations-background.webp");
   height: 500px;
