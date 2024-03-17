@@ -6,8 +6,11 @@
 */
 body {
   font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
   background-color: black;
-  color:seashell;
+  opacity: 0.9;
+  box-sizing: border-box;
   text-align: center;
 }
 
