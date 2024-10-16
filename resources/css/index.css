@@ -1,8 +1,7 @@
 /*  Notes:
     Make note of additional rules not on redline
       e.g: overall/header width
-      What do I have to do to make the Tea of the Month text centre
-      so it's vertically aligned with the other two headings?
+    One problem with this file is the text in the #banner (the <h4> bit) which won't wrap nicely 
 */
 body {
   font-family: Helvetica, sans-serif;
@@ -30,7 +29,8 @@ nav {
 }
 
 nav li {
-  display:inline-block;
+    display:inline-block;
+    padding: 0 10px;
 }
 
 nav li a {
@@ -39,10 +39,22 @@ nav li a {
 }
 
 #mission {
+  display: flex;
+  align-items: center;
   background-image: url("../images/img-mission-background.webp");
   height: 700px;
   width: 1200px;
+  text-wrap: wrap;  /*has no effect*/
+  margin: auto;
 }
+
+#banner {
+    background-color:black;
+    height: 150px;
+    width: 1200px;
+    text-wrap: wrap; /* doesn't work here either */
+}
+
 
 /* Tea of the Month Section */
 #tea-of-the-month {
@@ -73,7 +85,7 @@ h2 {
 
 #locations {
   background-image: url("../images/img-locations-background.webp");
-  height: 500px;
+  min-height: 500px;
 }
 
 #locations-container {
